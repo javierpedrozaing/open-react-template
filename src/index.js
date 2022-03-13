@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
 import App from './App';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Login from './components/User/login';
+import Register from './components/User/register';
+import Profile from './components/User/profile';
 import * as serviceWorker from './serviceWorker';
 
 //import './App.css';

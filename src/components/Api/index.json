@@ -1,0 +1,72 @@
+[
+  {
+    "id": 156432132,
+    "name": "Empresa A",
+    "sector": "Textiles",
+    "impuestos": [
+      {
+        "id": 1,
+        "type": "1 cuota",
+        "name": "retefuente Empresa A",
+        "Categoría": "Retefuente",
+        "ultimo_digito_nit": "5", 
+        "periodos_pago": [
+          {
+            "mes": "Enero",
+            "fehca_limite": "14 De febrero"
+          },
+          {
+            "mes": "Febrero",
+            "fehca_limite": "14 De Marzo"
+          }
+        ]
+        }
+      ]
+  },
+
+  {
+      "id": 2,
+      "type": "2 cuota",
+      "name": "retefuente Empresa A",
+      "Categoría": "Renta jurídica",
+      "ultimo_digito_nit": [1,5], 
+      "cuota1": [
+        {
+          "mes": "Enero",
+          "fehca_limite": "14 De febrero"
+        },
+        {
+          "mes": "Febrero",
+          "fehca_limite": "14 De Marzo"
+        }
+      ],
+      "cuota2": [
+        {
+          "mes": "Enero",
+          "fehca_limite": "14 De febrero"
+        },
+        {
+          "mes": "Febrero",
+          "fehca_limite": "14 De Marzo"
+        }
+      ]
+    },
+     
+    {
+      "id": 3,
+      "type": "transferencias",
+      "name": "retefuente Empresa A",
+      "Categoría": "Declaración informativa de Precios de Transferenca",
+      "ultimo_digito_nit": "5", 
+      "periodos_pago": [
+        {
+          "mes": "Enero",
+          "fehca_limite": "14 De febrero"
+        },
+        {
+          "mes": "Febrero",
+          "fehca_limite": "14 De Marzo"
+        }
+      ]
+    }
+]
